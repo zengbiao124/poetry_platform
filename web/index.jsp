@@ -23,7 +23,7 @@
 <div class="top_bg">
     <%
         if (user != null) {%>
-    <a href="#" style="text-align: left;float: left;margin: 10px">用户：<%=user.getUsername()%>   欢迎来到云端诗路</a>
+    <a href="#" style="text-align: left;float: left;margin: 10px;position: absolute">用户：<%=user.getUsername()%>  欢迎来到云间诗路</a>
     <%}%>
     <div class="wrap">
         <div class="qrcode right mgt20">
